@@ -1,0 +1,161 @@
+.header {
+    background-color: #007765;
+    position: sticky;
+    top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.problem_header, .piperCoin_header, .team_header, .text, .position, .figcaption {
+    font-family: Roboto, sans-serif;
+}
+
+.problem, .seperate, .piper, .team {
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+}
+
+.container {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1219px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.logo {
+    display: inline-block;
+    padding: 20px 30px;
+}
+
+.nav {
+    float: right;
+    padding: 30px 30px;
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+.piperNet {
+    background: url('image.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.piperNet .text {
+    font-weight: 400;
+    color: white;
+    font-size: 64px;
+    text-align: center;
+    padding-top: 169.5px;
+    padding-bottom: 169.5px;
+}
+
+.problem_section {
+    background-color: #EEEEEE;
+}
+
+.problem_header, .piperCoin_header, .team_header {
+    font-weight: 500;
+    padding-top: 40px;
+    color: #007765;
+    text-align: center;
+    font-size: 64px;
+}
+
+.problem_section .text, .ppc .text {
+    color: black;
+    font-size: 32px;
+    padding-bottom: 60px;
+}
+
+.network {
+    background: url('network.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.network .text {
+    font-weight: 500;
+    max-width: 893px;
+    color: white;
+    font-size: 48px;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 127.5px;
+    padding-bottom: 127.5px;
+}
+
+.ppc_logo {
+    float: left;
+    padding-right: 55px;
+    padding-top: 30px;
+}
+
+.team_section {
+    background-color: #EEEEEE;
+}
+
+.team_header {
+    padding-bottom: 40px;
+}
+
+.photo {
+    width: 350px;
+    height: 283px;
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.figcaption {
+    color: #007765;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 15px;
+}
+
+.position {
+    color: black;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+}
+
+footer {
+    background-color: #333333;
+}
+
+footer .text {
+    max-width: 540px;
+    font-size: 18px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#team, #problem, #piper, #logo{
+    margin-top: -84px;
+    padding-top: 84px;
+    /* -webkit-background-clip: content-box; */
+    background-clip: content-box;
+}
+
